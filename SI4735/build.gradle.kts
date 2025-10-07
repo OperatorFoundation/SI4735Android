@@ -36,8 +36,8 @@ android {
 dependencies {
 
     // Operator Libraries
-    implementation("com.github.OperatorFoundation:SignalBridge:e47f95e5c1") // USB audio
-    implementation("com.github.OperatorFoundation:TransmissionAndroid:919f0656df") // Serial communications
+    implementation("com.github.OperatorFoundation:SignalBridge:main-SNAPSHOT") // USB audio
+    implementation("com.github.OperatorFoundation:TransmissionAndroid:main") // Serial communications
     implementation("com.github.OperatorFoundation:ion-android:main") // Communication protocol
 
     implementation(libs.androidx.core.ktx)
